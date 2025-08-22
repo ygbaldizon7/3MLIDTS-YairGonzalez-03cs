@@ -46,7 +46,7 @@ namespace _3MLIDTS_YairGonzalez_03cs
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(67, 187);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(100, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(100, 43);
             this.btnCalcular.TabIndex = 0;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = false;
@@ -58,7 +58,7 @@ namespace _3MLIDTS_YairGonzalez_03cs
             this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.Location = new System.Drawing.Point(188, 187);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(100, 23);
+            this.btnLimpiar.Size = new System.Drawing.Size(100, 43);
             this.btnLimpiar.TabIndex = 1;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -131,6 +131,7 @@ namespace _3MLIDTS_YairGonzalez_03cs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_3MLIDTS_YairGonzalez_03cs.Properties.Resources._default;
             this.ClientSize = new System.Drawing.Size(334, 261);
             this.Controls.Add(this.tbKevin);
             this.Controls.Add(this.tbFahrenheit);
@@ -143,6 +144,7 @@ namespace _3MLIDTS_YairGonzalez_03cs
             this.Controls.Add(this.btnCalcular);
             this.Name = "Form1";
             this.Text = "Actividad 03 - Conversor de Temperaturas";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

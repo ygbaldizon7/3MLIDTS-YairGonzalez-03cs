@@ -71,5 +71,10 @@ namespace _3MLIDTS_YairGonzalez_03cs
             tbFahrenheit.Clear();
             tbKevin.Clear();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
